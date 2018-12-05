@@ -20,7 +20,6 @@ body {
 	text-align: center;
 	letter-spacing: 2px;
 	padding-top: 30px;
-
 }
 
 #nav ul {
@@ -39,8 +38,6 @@ body {
 	padding: 50px;
 	position: relative;
 	text-align: center;
-/*	left: 50%;
-	transform: translate(-50%, 0);*/
 	top: 50px;
 }
 
@@ -48,7 +45,6 @@ li a {
 	text-decoration: none;
 	color: white;
 }
-
 
 img {
 	width: 700px;
@@ -93,11 +89,16 @@ img {
 	position: absolute; 
 }
 
+#contact {
+	display: flex;
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+}
+
 #location {
 	font-family: 'Roboto Mono', monospace;
 	color: white;
-	margin-left: 300px;
-	float: left;
 	height: 200px;
 	width: 250px;
 	margin-top: 1025px;
@@ -108,8 +109,7 @@ img {
 #hours {
 	font-family: 'Roboto Mono', monospace;
 	color: white;
-	margin-left: 150px;
-	float: left;
+	margin-left: 100px;
 	height: 200px;
 	width: 250px;
 	margin-top: 1025px;
@@ -131,7 +131,6 @@ img {
 	align-items: center;
 	justify-content: center;
 }
-
 
 #order {
 	width: 100%;
