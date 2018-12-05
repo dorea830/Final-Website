@@ -1,0 +1,178 @@
+body {
+	font-family: 'Roboto Mono', monospace;
+	background-color: #00001d;
+}
+
+#nav {
+	background-color: #00005f;
+	margin: 0px;
+	width: 100%;
+	height: 165px;
+	position: fixed;
+	z-index: 1;
+}
+
+#nav h1 {
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+	font-size: 36pt;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 2px;
+	padding-top: 30px;
+
+}
+
+#nav ul {
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+	font-size: 12pt;
+	letter-spacing: 2px;
+	cursor: pointer;
+	float: left;
+	text-align: center;
+}
+
+#nav li {
+	display: inline;
+	list-style-type: none;
+	padding: 50px;
+	position: relative;
+	text-align: center;
+/*	left: 50%;
+	transform: translate(-50%, 0);*/
+	top: 50px;
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+}
+
+
+img {
+	width: 700px;
+	position: relative;
+	top: 225px;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+#about {
+	width: 100%;
+	height: 100px;
+	background-color: #00005f;
+	color: white;
+	position: absolute;
+	margin-top: 800px;
+	display: flex; 
+}
+
+#about p {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 10pt;
+	line-height: 22px;
+	max-width: 80%; 
+}
+
+#slideshow {
+	display: block;
+}
+
+.fadein { 
+	position: absolute; 
+	margin: 20px auto;
+	padding: 10px;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.fadein img { 
+	position: absolute; 
+}
+
+#location {
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+	margin-left: 300px;
+	float: left;
+	height: 200px;
+	width: 250px;
+	margin-top: 1025px;
+	text-align: center;
+	line-height: 24px;
+}
+
+#hours {
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+	margin-left: 150px;
+	float: left;
+	height: 200px;
+	width: 250px;
+	margin-top: 1025px;
+	text-align: center;
+	line-height: 20px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.align {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#order {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	margin-bottom: 50px;
+}
+
+#order p {
+	font-family: 'Roboto Mono', monospace;
+	display: flex;
+	align-self: center; 
+	color: white;
+	margin-bottom: 20px;
+	margin-top: 100px;
+}
+
+.button {
+	display: flex;
+	align-self: center; 
+	width: 150px;
+	margin-bottom: 10px;
+}
+
+div .button a {
+	display: flex;
+	align-self: center;
+	font-family: 'Roboto Mono', monospace;
+	width: 150px;
+	height: 35px;
+	background-color: #00005f;
+	color: white;
+	text-decoration: none;
+	border: 1px solid white;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.fade {
+	opacity: 0;
+}
